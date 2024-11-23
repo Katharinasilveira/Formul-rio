@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Usuários</title>
+  <!-- Link do Materialize CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h4 class="center-align">Cadastro de Usuário</h4>
+    <form id="userForm">
+      <div class="input-field">
+        <input id="nome" type="text" required>
+        <label for="nome">Nome</label>
+      </div>
+      <div class="input-field">
+        <input id="login" type="text" required>
+        <label for="login">Login</label>
+      </div>
+      <div class="input-field">
+        <input id="senha" type="password" required>
+        <label for="senha">Senha</label>
+      </div>
+      <div class="input-field">
+        <input id="email" type="email" required>
+        <label for="email">E-mail</label>
+      </div>
+      <div class="input-field">
+        <input id="endereco" type="text" required>
+        <label for="endereco">Endereço</label>
+      </div>
+      <div class="input-field">
+        <input id="telefone" type="tel" required>
+        <label for="telefone">Telefone</label>
+      </div>
+      <button type="button" id="saveButton" class="btn waves-effect waves-light">Gravar</button>
+    </form>
+  </div>
+
+  <!-- Link do Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
